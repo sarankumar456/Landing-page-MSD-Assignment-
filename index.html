@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="Amazon Logo">
+            </div>
+            
+            <div class="deliver-to">
+                <div class="location-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="address-text">
+                    <span>Deliver to</span>
+                    <span>India</span>
+                </div>
+            </div>
+            
+            <div class="search-bar">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Electronics</option>
+                    <option>Home</option>
+                    <option>Books</option>
+                    <option>Toys</option>
+                </select>
+                <input type="text" class="search-input" placeholder="Search Amazon">
+                <button class="search-button">
+                    <i class="fas fa-search search-icon"></i>
+                </button>
+            </div>
+            
+            <div class="nav-right">
+                <div class="nav-item">
+                    <span>Hello, Sign in</span>
+                    <span>Account & Lists</span>
+                </div>
+                
+                <div class="nav-item">
+                    <span>Returns</span>
+                    <span>& Orders</span>
+                </div>
+                
+                <div class="cart">
+                    <i class="fas fa-shopping-cart cart-icon"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="secondary-nav">
+            <div class="secondary-nav-item">
+                <i class="fas fa-bars menu-icon"></i>
+                <span>All</span>
+            </div>
+            <div class="secondary-nav-item">Today's Deals</div>
+            <div class="secondary-nav-item">Customer Service</div>
+            <div class="secondary-nav-item">Registry</div>
+            <div class="secondary-nav-item">Gift Cards</div>
+            <div class="secondary-nav-item">Sell</div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg" alt="Hero Image" class="hero-image">
+        <div class="hero-content">
+            <h1>Welcome to Amazon Clone</h1>
+            <p>Shop millions of products with fast, free delivery. Prime members enjoy exclusive access to movies, music, and more.</p>
+            <button class="hero-button">Sign up for Prime</button>
+        </div>
+    </section>
+    
+    <!-- Product Grid -->
+    <section class="product-grid">
+        <div class="product-card">
+            <h3>Apple AirPods Pro</h3>
+            <img src="https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_UL320_.jpg" alt="AirPods Pro" class="product-image">
+            <div class="product-price">₹1999.00</div>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>12,345</span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        
+        <div class="product-card">
+            <h3>Echo Dot (4th Gen)</h3>
+            <img src="https://m.media-amazon.com/images/I/714Rq4k05UL._AC_UL320_.jpg" alt="Echo Dot" class="product-image">
+            <div class="product-price">₹499.99</div>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>45,678</span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        
+        <div class="product-card">
+            <h3>Kindle Paperwhite</h3>
+            <img src="https://m.media-amazon.com/images/I/61XZQXFQeVL._AC_UL320_.jpg" alt="Kindle" class="product-image">
+            <div class="product-price">₹13999.99</div>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>23,456</span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        
+        <div class="product-card">
+            <h3>PlayStation 5</h3>
+            <img src="https://rukminim2.flixcart.com/image/300/300/xif0q/gamingconsole/5/n/u/-original-imaghyykrhvewh4y.jpeg" alt="PS5" class="product-image">
+            <div class="product-price">₹49999.99</div>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>9,876</span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+                <span>Back to Top</span>
+            </div>
+        </div>
+        
+        <div class="footer-middle">
+            <div class="footer-column">
+                <h4>Get to Know Us</h4>
+                <ul>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>About Amazon</li>
+                    <li>Investor Relations</li>
+                    <li>Amazon Devices</li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Make Money with Us</h4>
+                <ul>
+                    <li>Sell products on Amazon</li>
+                    <li>Sell on Amazon Business</li>
+                    <li>Become an Affiliate</li>
+                    <li>Advertise Your Products</li>
+                    <li>Self-Publish with Us</li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Amazon Payment Products</h4>
+                <ul>
+                    <li>Amazon Business Card</li>
+                    <li>Shop with Points</li>
+                    <li>Reload Your Balance</li>
+                    <li>Amazon Currency Converter</li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Let Us Help You</h4>
+                <ul>
+                    <li>Amazon and COVID-19</li>
+                    <li>Your Account</li>
+                    <li>Your Orders</li>
+                    <li>Shipping Rates & Policies</li>
+                    <li>Returns & Replacements</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="Amazon Logo" class="footer-logo">
+            <div class="footer-links">
+                <span>Conditions of Use</span>
+                <span>Privacy Notice</span>
+                <span>Interest-Based Ads</span>
+                <span>© 1996-2023, Amazon.com, Inc. or its affiliates</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
