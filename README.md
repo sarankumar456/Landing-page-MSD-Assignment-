@@ -1,6 +1,6 @@
 # 🛍️ Amazon Clone - Responsive Landing Page
 
-![Amazon Clone Preview](https://i.imgur.com/JxYK3jN.png) *(replace with actual screenshot)*
+![Amazon Clone Preview](https://github.com/sarankumar456/Landing-page-MSD-Assignment-/blob/main/Screenshot.png?raw=true) 
 
 A pixel-perfect frontend clone of Amazon's landing page built with **pure HTML & CSS**. Perfect for learning responsive design principles and modern CSS techniques.
 
